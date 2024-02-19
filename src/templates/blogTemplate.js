@@ -21,11 +21,9 @@ export default function Template({
           name="viewport"
           content="width=device-width,initial-scale=1.0,maximum-scale=1"
         />
-
         <meta name="description" content={frontmatter.metaDescription} />
         <link rel="shortcut icon" href="../images/vider-favicon.png" />
         <link rel="apple-touch-icon" href="../images/vider-favicon.png" />
-            <link rel="stylesheet" type="text/css" href="../css/style.css" />
         <link
           rel="apple-touch-icon"
           sizes="72x72"
@@ -50,8 +48,10 @@ export default function Template({
           sizes="114x114"
           href="../images/apple-touch-icon-114x114.png"
         />
+            <link rel="stylesheet" type="text/css" href="../css/style.css" />
         <link rel="stylesheet" type="text/css" href="../css/font-icons.min.css" />
     <link rel="stylesheet" type="text/css" href="../css/theme-vendors.min.css" />
+
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" type="text/css" href="../css/responsive.css" />
     <script type="text/javascript" src="../js/jquery.min.js"></script>

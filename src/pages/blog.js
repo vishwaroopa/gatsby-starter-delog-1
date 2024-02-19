@@ -31,7 +31,6 @@ const IndexPage = ({
           name="description"
           content="LEARN-TRAIN-MANAGE-SUCCEED - join VIDER,  a technology-driven platform that revolutionizes business practices and ensures compliance with regulations, simplifying the process of doing business & professional practice."
         />
-        <link rel="stylesheet" type="text/css" href="../css/style.css" />
         <link rel="shortcut icon" href="../images/vider-favicon.png" />
         <link rel="apple-touch-icon" href="../images/vider-favicon.png" />
         <link
@@ -58,8 +57,10 @@ const IndexPage = ({
           sizes="114x114"
           href="../images/apple-touch-icon-114x114.png"
         />
+        <link rel="stylesheet" type="text/css" href="../css/style.css" />
         <link rel="stylesheet" type="text/css" href="../css/font-icons.min.css" />
     <link rel="stylesheet" type="text/css" href="../css/theme-vendors.min.css" />
+    
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" type="text/css" href="../css/responsive.css" />
     <script type="text/javascript" src="../js/jquery.min.js"></script>

@@ -72,7 +72,6 @@ export default () => (
                 <li class="nav-item dropdown simple-dropdown">
                   <a
                     href="../blog"
-                    target="blank"
                     class="nav-link text-uppercase"
                     >Blogs</a
                   >
