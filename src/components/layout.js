@@ -31,40 +31,7 @@ const Layout = ({ children }) => {
                 <span className="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">Corporate Address</span>
                 <p>GVR's Pride, 2<sup>nd</sup> Floor, KPHB 5<sup>th</sup> Phase, Kukatpally, Hyderabad, Telangana - 500072 IN</p>
               </div>
-               <div
-              class="col-12 col-lg-2 offset-sm-1 col-sm-5 order-sm-2 order-lg-0 md-margin-40px-bottom xs-margin-25px-bottom"
-            >
-              <span
-                class="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom"
-                >About Us</span
-              >
-              <ul>
-                <li><a href="">Discover Us</a></li>
-                <li><a href="">Services</a></li>
-                <li>
-                  <a href="https://medium.com/@socialmedia_19214" target="blank"
-                    >Blog</a
-                  >
-                </li>
-                <li><a href="">Products</a></li>
-                <li><a href="./contactUs.html">Contact us</a></li>
-              </ul>
-            </div>
-            <div
-              class="col-12 col-lg-2 col-sm-5 offset-sm-1 offset-lg-0 order-sm-4 order-lg-0 xs-margin-25px-bottom"
-            >
-              <span
-                class="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom"
-                >Products</span
-              >
-              <ul>
-                <li><a href="./atom.html" target="_blank">Atom</a></li>
-                <li><a href="./prism.html" target="_blank">Prism</a></li>
-                <li><a href="./spectrum.html" target="_blank">Spectrum</a></li>
-  
-                <li><a href="./quantum.html" target="_blank">Quantum</a></li>
-              </ul>
-            </div>
+              {/* Add more footer columns here */}
             </div>
           </div>
         </div>
