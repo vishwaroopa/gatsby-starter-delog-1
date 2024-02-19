@@ -19,23 +19,107 @@ const IndexPage = ({
   return (
 <Layout>
  <Helmet>
-        <title>Vider Business Solutions</title>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="author" content="ThemeZaa" />
-        <meta
-          name="viewport"
-          content="width=device-width,initial-scale=1.0,maximum-scale=1"
-        />
-        <meta
-          name="description"
-          content="LEARN-TRAIN-MANAGE-SUCCEED - join VIDER,  a technology-driven platform that revolutionizes business practices and ensures compliance with regulations, simplifying the process of doing business & professional practice."
-        />
-        <link rel="stylesheet" type="text/css" href="https://vider.netlify.app/css/font-icons.min.css" />
-        <link rel="stylesheet" type="text/css" href="https://vider.netlify.app/css/theme-vendors.min.css" />
-        <link rel="stylesheet" type="text/css" href="https://vider.netlify.app/css/style.css" />
-        <link rel="stylesheet" href="https://vider.netlify.app/css/main.css" />
-        <link rel="stylesheet" type="text/css" href="https://vider.netlify.app/css/responsive.css" />
+      <title>Vider Business Solutions</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="ThemeZaa" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,maximum-scale=1"
+    />
+    <meta
+      name="description"
+      content="LEARN-TRAIN-MANAGE-SUCCEED - join VIDER,  a technology-driven platform that revolutionizes business practices and ensures compliance with regulations, simplifying the process of doing business & professional practice."
+    />
+    <link rel="shortcut icon" href="images/vider-favicon.png" />
+    <link rel="apple-touch-icon" href="images/vider-favicon.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="images/vider-favicon.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="images/apple-touch-icon-114x114.png"
+    />
+    <!-- style sheets and font icons  -->
+    <link rel="stylesheet" type="text/css" href="css/font-icons.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/theme-vendors.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/theme-vendors.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script>
+      let verifyPan = document.getElementById("verifyPan");
+      let linkAdd = document.getElementById("linkAddhar");
+      let linkAddStatus = document.getElementById("linkAddharStatus");
+      let instantEpan = document.getElementById("instantEpan");
+      let tanDetails = document.getElementById("tanDetails");
+
+      verifyPan.addEventListener("click", function (e) {
+        e.preventDefault();
+        window.open(e.currentTarget.getAttribute("data-href"));
+      });
+
+      linkAdd.addEventListener("click", function (e) {
+        e.preventDefault();
+        window.open(e.currentTarget.getAttribute("data-href"));
+      });
+
+      linkAddStatus.addEventListener("click", function (e) {
+        e.preventDefault();
+        window.open(e.currentTarget.getAttribute("data-href"));
+      });
+
+      instantEpan.addEventListener("click", function (e) {
+        e.preventDefault();
+        window.open(e.currentTarget.getAttribute("data-href"));
+      });
+
+      tanDetails.addEventListener("click", function (e) {
+        e.preventDefault();
+        window.open(e.currentTarget.getAttribute("data-href"));
+      });
+
+      let animationText = document.getElementById("animateText");
+      let displayText = "Spectrum Comming Soon!";
+      let spanEles;
+
+      function WaveText(str) {
+        let letters = str.split("");
+        spanEles = letters.map((let) => {
+          return `<span>${let}</span>`;
+        });
+        spanEles = spanEles.join("");
+      }
+
+      WaveText(displayText);
+
+      animationText.innerHTML = spanEles;
+
+      Array.from(animationText.children).forEach((ele, ind) => {
+        ele.classList.add("wavy");
+      });
+
+      console.log(animationText.innerHTML);
+    </script>
       </Helmet>
       <HeroHeader/>
       <h2>Blog Posts &darr;</h2>
