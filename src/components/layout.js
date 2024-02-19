@@ -33,90 +33,49 @@ const Layout = ({ children }) => {
                 <span className="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">Corporate Address</span>
                 <p>GVR's Pride, 2<sup>nd</sup> Floor, KPHB 5<sup>th</sup> Phase, Kukatpally, Hyderabad, Telangana - 500072 IN</p>
               </div>
-              
-                <div
-              class="col-12 col-lg-2 offset-sm-1 col-sm-5 order-sm-2 order-lg-0 md-margin-40px-bottom xs-margin-25px-bottom"
-            >
-              <span
-                class="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom"
-                >About Us</span
-              >
-              <ul>
-                <li><a href="">Discover Us</a></li>
-                <li><a href="">Services</a></li>
-                <li>
-                  <a href="https://medium.com/@socialmedia_19214" target="blank"
-                    >Blog</a
-                  >
-                </li>
-                <li><a href="">Products</a></li>
-                <li><a href="../contactUs.html">Contact us</a></li>
-              </ul>
-            </div>
-               <div
-              class="col-12 col-lg-2 col-sm-5 offset-sm-1 offset-lg-0 order-sm-4 order-lg-0 xs-margin-25px-bottom"
-            >
-              <span
-                class="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom"
-                >Products</span
-              >
-              <ul>
-                <li><a href="../atom.html" target="_blank">Atom</a></li>
-                <li><a href="../prism.html" target="_blank">Prism</a></li>
-                <li><a href="../spectrum.html" target="_blank">Spectrum</a></li>
-  
-                <li><a href="../quantum.html" target="_blank">Quantum</a></li>
-              </ul>
-            </div>
-             <div
-              class="col-12 col-xl-3 offset-xl-1 col-lg-4 col-sm-6 order-sm-3 order-lg-0"
-            >
-              <span
-                class="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom"
-                >Subscribe to newsletter</span
-              >
-              <p>
-                Enter your email address for receiving valuable newsletters.
-              </p>
-              <form
-                action="email-templates/subscribe-newsletter.php"
-                method="post"
-              >
-                <div class="newsletter-style-03 position-relative">
-                  <input
-                    class="small-input border-color-medium-gray rounded m-0 required"
-                    name="email"
-                    placeholder="Enter your email address"
-                    type="email"
-                  />
-                  <input type="hidden" name="redirect" value="" />
-                  <button
-                    class="btn no-border btn-gradient-sky-blue-pink rounded-end submit"
-                    type="submit"
-                  >
-                    <i
-                      class="feather icon-feather-mail icon-extra-small m-0"
-                    ></i>
-                  </button>
-                  <div
-                    class="form-results rounded position-absolute d-none"
-                  ></div>
-                </div>
-              </form>
-              <div style = "margin-top: 20px;">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15222.383797563538!2d78.3938154!3d17.4790427!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdd4b14d48a2bb57%3A0x4fea9f7a5e0edfea!2sVider%20Business%20Solutions!5e0!3m2!1sen!2sin!4v1682338785861!5m2!1sen!2sin" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-              </div>
-              <div>&copy; 2023 Copyrights reserved by
-                <span class="text-white">Vider</span></div>
-                <div style="padding-top: 20px;"><a href="../atom.html" class="footer-logo"
-                  ><img
-                    src="../images/vider-logo-white.png"
-                    data-at2x="../images/vider-logo-white.png"
-                    alt="logo"
-                /></a></div>
-            </div>
-            
               {/* Add more footer columns here */}
+              <div className="col-12 col-lg-2 offset-sm-1 col-sm-5 order-sm-2 order-lg-0 md-margin-40px-bottom xs-margin-25px-bottom">
+                <span className="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">About Us</span>
+                <ul>
+                  <li><a href="">Discover Us</a></li>
+                  <li><a href="">Services</a></li>
+                  <li><a href="https://medium.com/@socialmedia_19214" target="_blank">Blog</a></li>
+                  <li><a href="">Products</a></li>
+                  <li><a href="../contactUs.html">Contact us</a></li>
+                </ul>
+              </div>
+              <div className="col-12 col-lg-2 col-sm-5 offset-sm-1 offset-lg-0 order-sm-4 order-lg-0 xs-margin-25px-bottom">
+                <span className="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">Products</span>
+                <ul>
+                  <li><a href="../atom.html" target="_blank">Atom</a></li>
+                  <li><a href="../prism.html" target="_blank">Prism</a></li>
+                  <li><a href="../spectrum.html" target="_blank">Spectrum</a></li>
+                  <li><a href="../quantum.html" target="_blank">Quantum</a></li>
+                </ul>
+              </div>
+              <div className="col-12 col-xl-3 offset-xl-1 col-lg-4 col-sm-6 order-sm-3 order-lg-0">
+                <span className="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">Subscribe to newsletter</span>
+                <p>Enter your email address for receiving valuable newsletters.</p>
+                <form action="email-templates/subscribe-newsletter.php" method="post">
+                  <div className="newsletter-style-03 position-relative">
+                    <input className="small-input border-color-medium-gray rounded m-0 required" name="email" placeholder="Enter your email address" type="email" />
+                    <input type="hidden" name="redirect" value="" />
+                    <button className="btn no-border btn-gradient-sky-blue-pink rounded-end submit" type="submit">
+                      <i className="feather icon-feather-mail icon-extra-small m-0"></i>
+                    </button>
+                    <div className="form-results rounded position-absolute d-none"></div>
+                  </div>
+                </form>
+                <div style={{ marginTop: "20px" }}>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15222.383797563538!2d78.3938154!3d17.4790427!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdd4b14d48a2bb57%3A0x4fea9f7a5e0edfea!2sVider%20Business%20Solutions!5e0!3m2!1sen!2sin!4v1682338785861!5m2!1sen!2sin" width="400" height="200" style={{ border: "0" }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div>&copy; 2023 Copyrights reserved by <span className="text-white">Vider</span></div>
+                <div style={{ paddingTop: "20px" }}>
+                  <a href="../atom.html" className="footer-logo">
+                    <img src="../images/vider-logo-white.png" data-at2x="../images/vider-logo-white.png" alt="logo" />
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
