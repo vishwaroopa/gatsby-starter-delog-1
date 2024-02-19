@@ -71,62 +71,6 @@ const IndexPage = ({
       <div className="grids">
         {Posts}
       </div>
-      <script>
-        {`
-          let verifyPan = document.getElementById("verifyPan");
-          let linkAdd = document.getElementById("linkAddhar");
-          let linkAddStatus = document.getElementById("linkAddharStatus");
-          let instantEpan = document.getElementById("instantEpan");
-          let tanDetails = document.getElementById("tanDetails");
-
-          verifyPan.addEventListener("click", function (e) {
-            e.preventDefault();
-            window.open(e.currentTarget.getAttribute("data-href"));
-          });
-
-          linkAdd.addEventListener("click", function (e) {
-            e.preventDefault();
-            window.open(e.currentTarget.getAttribute("data-href"));
-          });
-
-          linkAddStatus.addEventListener("click", function (e) {
-            e.preventDefault();
-            window.open(e.currentTarget.getAttribute("data-href"));
-          });
-
-          instantEpan.addEventListener("click", function (e) {
-            e.preventDefault();
-            window.open(e.currentTarget.getAttribute("data-href"));
-          });
-
-          tanDetails.addEventListener("click", function (e) {
-            e.preventDefault();
-            window.open(e.currentTarget.getAttribute("data-href"));
-          });
-
-          let animationText = document.getElementById("animateText");
-          let displayText = "Spectrum Comming Soon!";
-          let spanEles;
-
-          function WaveText(str) {
-            let letters = str.split("");
-            spanEles = letters.map((let) => {
-              return \`<span>\${let}</span>\`;
-            });
-            spanEles = spanEles.join("");
-          }
-
-          WaveText(displayText);
-
-          animationText.innerHTML = spanEles;
-
-          Array.from(animationText.children).forEach((ele, ind) => {
-            ele.classList.add("wavy");
-          });
-
-          console.log(animationText.innerHTML);
-        `}
-      </script>
     </Layout>
   )
 }
