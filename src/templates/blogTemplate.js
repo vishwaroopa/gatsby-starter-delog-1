@@ -48,9 +48,9 @@ export default function Template({
           sizes="114x114"
           href="../images/apple-touch-icon-114x114.png"
         />
-            <link rel="stylesheet" type="text/css" href="../css/style.css" />
         <link rel="stylesheet" type="text/css" href="../css/font-icons.min.css" />
     <link rel="stylesheet" type="text/css" href="../css/theme-vendors.min.css" />
+            <link rel="stylesheet" type="text/css" href="../css/style.css" />
 
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" type="text/css" href="../css/responsive.css" />
