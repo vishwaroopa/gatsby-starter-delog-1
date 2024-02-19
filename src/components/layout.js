@@ -16,13 +16,14 @@ const Layout = ({ children }) => {
     `
   )
   return (
-    <div className="site-wrapper">
-      <header className="site-header">
-
-      </header>
-      {children}
-    </div>
-     <footer className="footer-dark bg-slate-blue">
+    <>
+      <div className="site-wrapper">
+        <header className="site-header">
+          {/* You can add header content here */}
+        </header>
+        <main>{children}</main>
+      </div>
+      <footer className="footer-dark bg-slate-blue">
         <div className="footer-top padding-six-tb lg-padding-eight-tb md-padding-50px-tb">
           <div className="container">
             <div className="row">
@@ -61,6 +62,7 @@ const Layout = ({ children }) => {
           </div>
         </div>
       </footer>
+    </>
   )
 }
 
