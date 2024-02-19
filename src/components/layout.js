@@ -50,7 +50,7 @@ const Layout = ({ children }) => {
                   >
                 </li>
                 <li><a href="">Products</a></li>
-                <li><a href="./contactUs.html">Contact us</a></li>
+                <li><a href="../contactUs.html">Contact us</a></li>
               </ul>
             </div>
                <div
@@ -61,11 +61,11 @@ const Layout = ({ children }) => {
                 >Products</span
               >
               <ul>
-                <li><a href="./atom.html" target="_blank">Atom</a></li>
-                <li><a href="./prism.html" target="_blank">Prism</a></li>
-                <li><a href="./spectrum.html" target="_blank">Spectrum</a></li>
+                <li><a href="../atom.html" target="_blank">Atom</a></li>
+                <li><a href="../prism.html" target="_blank">Prism</a></li>
+                <li><a href="../spectrum.html" target="_blank">Spectrum</a></li>
   
-                <li><a href="./quantum.html" target="_blank">Quantum</a></li>
+                <li><a href="../quantum.html" target="_blank">Quantum</a></li>
               </ul>
             </div>
              <div
@@ -108,10 +108,10 @@ const Layout = ({ children }) => {
               </div>
               <div>&copy; 2023 Copyrights reserved by
                 <span class="text-white">Vider</span></div>
-                <div style="padding-top: 20px;"><a href="./atom.html" class="footer-logo"
+                <div style="padding-top: 20px;"><a href="../atom.html" class="footer-logo"
                   ><img
-                    src="./images/vider-logo-white.png"
-                    data-at2x="./images/vider-logo-white.png"
+                    src="../images/vider-logo-white.png"
+                    data-at2x="../images/vider-logo-white.png"
                     alt="logo"
                 /></a></div>
             </div>
@@ -126,9 +126,9 @@ const Layout = ({ children }) => {
             <div className="row">
               <div className="col-12 col-md-6 sm-margin-10px-bottom xs-margin-15px-bottom">
                 <ul className="footer-horizontal-link d-flex flex-column flex-sm-row justify-content-sm-center justify-content-md-start">
-                  <li><a href="terms-to-use.html">Terms of Use</a></li>
-                  <li><a href="refund-cancellation.html">Refund & Cancellation</a></li>
-                  <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                  <li><a href="../terms-to-use.html">Terms of Use</a></li>
+                  <li><a href="../refund-cancellation.html">Refund & Cancellation</a></li>
+                  <li><a href="../privacy-policy.html">Privacy Policy</a></li>
                   {/* Add more footer links here */}
                 </ul>
               </div>
