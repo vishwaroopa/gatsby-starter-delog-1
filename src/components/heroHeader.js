@@ -29,7 +29,7 @@ export default () => (
                 alt=""
               />
               <img
-                src="images/vider-2x.png"
+                src="../images/vider-2x.png"
                 data-at2x="images/vider-2x.png"
                 class="alt-logo"
                 alt=""
@@ -65,13 +65,13 @@ export default () => (
                   <a href="#" class="nav-link text-uppercase">Home</a>
                 </li>
                 <li class="nav-item dropdown simple-dropdown">
-                  <a href="./aboutUs.html" class="nav-link text-uppercase"
+                  <a href="../aboutUs.html" class="nav-link text-uppercase"
                     >About Us</a
                   >
                 </li>
                 <li class="nav-item dropdown simple-dropdown">
                   <a
-                    href="https://blog.vider.in/"
+                    href="../blog"
                     target="blank"
                     class="nav-link text-uppercase"
                     >Blogs</a
@@ -86,16 +86,16 @@ export default () => (
                   ></i>
                   <ul class="dropdown-menu" role="menu">
                     <li class="dropdown">
-                      <a href="./atom.html" target="_blank">Atom </a>
+                      <a href="../atom.html" target="_blank">Atom </a>
                     </li>
                     <li class="dropdown">
-                      <a href="./spectrum.html" target="_blank">Spectrum</a>
+                      <a href="../spectrum.html" target="_blank">Spectrum</a>
                     </li>
                     <li class="dropdown">
-                      <a href="./prism.html" target="_blank">Prism </a>
+                      <a href="../prism.html" target="_blank">Prism </a>
                     </li>
                     <li class="dropdown">
-                      <a href="./quantum.html" target="_blank">Quantum </a>
+                      <a href="../quantum.html" target="_blank">Quantum </a>
                     </li>
                   </ul>
                 </li>
@@ -215,13 +215,13 @@ export default () => (
                   </ul>
                 </li>
                 <li class="nav-item dropdown megamenu">
-                  <a href="./atom-faq.html" class="nav-link text-uppercase"
+                  <a href="../atom-faq.html" class="nav-link text-uppercase"
                     >FAQ'S</a
                   >
                 </li>
 
                 <li class="nav-item dropdown megamenu">
-                  <a href="./contactUs.html" class="nav-link text-uppercase"
+                  <a href="../contactUs.html" class="nav-link text-uppercase"
                     >Contact Us</a
                   >
                 </li>
