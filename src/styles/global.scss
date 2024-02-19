@@ -12185,11 +12185,7 @@ header .header-cart-icon .cart-count {
   opacity: 0;
   z-index: 999;
 }
-.active-form .form-wrapper {
-  opacity: 1;
-  visibility: visible;
-  cursor: url(../images/mfg-close.png), auto;
-}
+
 .form-wrapper .search-form {
   height: 0;
   background-color: #fff;
@@ -12947,23 +12943,8 @@ header .header-cart-icon .cart-count {
   transition-duration: 0.3s;
 }
 
-.white-move .swiper-slide,
-.white-move .swiper-wrapper {
-  cursor: url("../images/icon-move-light.png"), move;
-}
-.black-move .swiper-slide,
-.black-move .swiper-wrapper {
-  cursor: url("../images/icon-move-black.png"), move;
-}
 
-.vertical-white-move .swiper-slide,
-.vertical-white-move .swiper-wrapper {
-  cursor: url("../images/vertical-icon-move-light.png"), move;
-}
-.vertical-black-move .swiper-slide,
-.vertical-black-move .swiper-wrapper {
-  cursor: url("../images/vertical-icon-move-black.png"), move;
-}
+
 
 .swiper-pagination-medium .swiper-pagination-bullet {
   width: 10px;
