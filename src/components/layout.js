@@ -21,8 +21,8 @@ const Layout = ({ children }) => {
 
       </header>
       {children}
-      </div>
-      <footer className="footer-dark bg-slate-blue">
+    </div>
+     <footer className="footer-dark bg-slate-blue">
         <div className="footer-top padding-six-tb lg-padding-eight-tb md-padding-50px-tb">
           <div className="container">
             <div className="row">
@@ -61,7 +61,6 @@ const Layout = ({ children }) => {
           </div>
         </div>
       </footer>
-    </div>
   )
 }
 
