@@ -33,6 +33,12 @@ const Layout = ({ children }) => {
                 <span className="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">Corporate Address</span>
                 <p>GVR's Pride, 2<sup>nd</sup> Floor, KPHB 5<sup>th</sup> Phase, Kukatpally, Hyderabad, Telangana - 500072 IN</p>
               </div>
+                <div className="col-12 col-lg-3 col-sm-6 order-sm-1 order-lg-0 last-paragraph-no-margin md-margin-40px-bottom xs-margin-25px-bottom">
+                <span className="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">Registered Address</span>
+                <p>Flat.No.101, Kacham Diamond Residency, Praga Tools Colony, Suchitra, Hyderabad, Telangana - 500014 IN</p>
+                <span className="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">Corporate Address</span>
+                <p>GVR's Pride, 2<sup>nd</sup> Floor, KPHB 5<sup>th</sup> Phase, Kukatpally, Hyderabad, Telangana - 500072 IN</p>
+              </div>
               {/* Add more footer columns here */}
             </div>
           </div>

@@ -21,7 +21,7 @@ export default () => (
       >
         <div class="container-fluid nav-header-container">
           <div class="col-auto col-sm-6 col-lg-2 me-auto ps-lg-0">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="../">
               <img
                 src="https://jss-vider-bucket.s3.ap-south-1.amazonaws.com/Vider%20Logo%20Beta.png"
                 data-at2x="https://jss-vider-bucket.s3.ap-south-1.amazonaws.com/Vider%20Logo%20Beta.png"
@@ -62,7 +62,7 @@ export default () => (
             >
               <ul class="navbar-nav alt-font">
                 <li class="nav-item dropdown megamenu">
-                  <a href="#" class="nav-link text-uppercase">Home</a>
+                  <a href="../" class="nav-link text-uppercase">Home</a>
                 </li>
                 <li class="nav-item dropdown simple-dropdown">
                   <a href="../aboutUs.html" class="nav-link text-uppercase"
